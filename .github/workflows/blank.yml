@@ -31,6 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Check base install
-        run: |
-          ./run-dependencies-install.sh,
-          ./run-i3gaps-install.sh
+        run: ./run-dependencies-install.sh ; ./run-i3gaps-install.sh

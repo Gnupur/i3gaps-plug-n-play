@@ -1,3 +1,4 @@
+#!/bin/bash
 bash run-dependencies-install.sh
 read -p "
  Press when you're ready to install i3-gaps [Enter]:  "

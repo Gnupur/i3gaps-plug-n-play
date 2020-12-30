@@ -1,4 +1,4 @@
-# About
+# About the project
  Plug n Play! This repo is focused on helping you install i3-gaps Wm on Debian/Ubuntu based systems and distros that might be limited to do so. You can download and set this up on a new minimal/server or other install you might have easily. This was made so it could also work on a Raspberry Pi (64bit distros tested), other arm systems might work with it as well (only tested on RPI for the time being).
 
 # How to setup & run

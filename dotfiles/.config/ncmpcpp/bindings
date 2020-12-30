@@ -1,0 +1,28 @@
+def_key "k"
+  scroll_up
+def_key "j"
+  scroll_down
+def_key "h"
+  seek_backward
+def_key "l"
+  seek_forward
+
+def_key "ctrl-p"
+  previous_screen
+def_key "ctrl-n"
+  next_screen
+
+def_key "+"
+  run_external_command "$LOCAL_BIN/volume_change +5 >/dev/null"
+def_key "-"
+  run_external_command "$LOCAL_BIN/volume_change -5 >/dev/null"
+def_key "0"
+  run_external_command "$LOCAL_BIN/mute >/dev/null"
+def_key "m"
+  run_external_command "$LOCAL_BIN/mute >/dev/null"
+
+def_command "quit" [deferred]
+  quit
+def_command "quit!" [deferred]
+  stop
+  quit

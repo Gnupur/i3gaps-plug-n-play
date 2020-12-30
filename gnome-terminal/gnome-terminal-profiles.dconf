@@ -1,0 +1,22 @@
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(111,134,255)'
+visible-name='profile 1'
+palette=['rgb(23,20,33)', 'rgb(191,64,64)', 'rgb(192,97,203)', 'rgb(92,53,102)', 'rgb(246,64,107)', 'rgb(172,59,235)', 'rgb(114,159,207)', 'rgb(211,215,207)', 'rgb(94,92,100)', 'rgb(192,28,40)', 'rgb(92,53,102)', 'rgb(233,173,12)', 'rgb(176,29,65)', 'rgb(162,85,0)', 'rgb(136,138,133)', 'rgb(238,238,236)']
+bold-is-bright=false
+default-size-columns=130
+default-size-rows=40
+cursor-background-color='rgb(109,130,250)'
+cursor-shape='underline'
+cursor-colors-set=true
+highlight-colors-set=true
+scroll-on-output=false
+use-transparent-background=true
+use-theme-colors=false
+font='Hack 9'
+use-theme-transparency=false
+use-system-font=false
+bold-color-same-as-fg=false
+bold-color='rgb(175,247,255)'
+background-color='rgb(0,0,0)'
+background-transparency-percent=24
+scrollbar-policy='never'

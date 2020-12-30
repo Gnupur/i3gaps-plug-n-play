@@ -1,15 +1,16 @@
 # About
  Plug n Play! This repo is focused on helping you install i3-gaps Wm on Debian/Ubuntu based systems and distros that might be limited to do so. You can download and set this up on a new minimal/server or other install you might have easily. This was made so it could also work on a Raspberry Pi (64bit distros tested), other arm systems might work with it as well (only tested on RPI for the time being).
 
+# How to setup & run
+
 ### Screenshot 1 // Wallpaper (wall-16)
 ![Screenshot 01](https://github.com/syspentarc/i3gaps-plug-n-play/blob/main/Screenshot%2001.png?raw=true)
 
 ### Screenshot 2 // Showcase of Polybar and I3 custom config files
 ![Screenshot 02](https://github.com/syspentarc/i3gaps-plug-n-play/blob/main/Screenshot%2002.png?raw=true)
 
-# How to setup & run
+## Steps before download & setup
 
-### Steps before download & setup
 #### Ensure your system is updated:
 `sudo apt-get update`
 
@@ -19,7 +20,7 @@ Since not all systems are not made the same and not all ditributions work the sa
 `sudo apt-get upgrade`
 
 ---
-### Download and setup
+## Download and setup
 
 ##### Ensure you have git installed
 `sudo apt-get install git`

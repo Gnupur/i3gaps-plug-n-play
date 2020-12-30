@@ -6,5 +6,36 @@
 
 ### Screenshot 2 // Showcase of Polybar and I3 custom config files
 ![Screenshot 02](https://github.com/syspentarc/i3gaps-plug-n-play/blob/main/Screenshot%2002.png?raw=true)
+
+# How to setup & run
+
+### Steps before download & setup
+#### Ensure your system is updated:
+`sudo apt-get update`
+
+Since not all systems are not made the same and not all ditributions work the same way, testing shows that some linux installs need to be upgraded prior to dependency install.
+
+#### Upgrade your system:
+`sudo apt-get upgrade`
+
+---
+### Download and setup
+
+##### Ensure you have git installed
+`sudo apt-get install git`
+
+#### Download:
+`git clone https://github.com/syspentarc/i3gaps-plug-n-play.git`
  
- Although i3-gaps has been here for quite a long time, it has become harder for people new to window managers (or just i3-wm) to install i3-gaps and rice it in debian-based distros. Another problem that comes with this is the existence of systems that don't have a lot of packages or come with a setup that makes it increasingly harder to install terminals, bars, fonts and window managers. ARM based distros tend to have a big majority of these problems, most packages don't exist, or they only exist for 32bit or 64bit only versions of those distros. What I try to do is provide solutions, for those who find it hard to do it themselves on their systems, those who use arm based devices like the Raspberry Pi and/or have a distro or install that has a problem with installing fonts and packages.
+#### Get inside the folder:
+`cd i3gaps-plug-n-play`
+
+You can either run a script at a time or run the install script. Each script has a dedicated function, the run-install.sh script will run the installation of dependencies and i3-gaps, followed by letting you go through picking recommended software and installing polybar.
+
+#### Run install scrip example:
+`bash run-install.sh` or `./run-install.sh`
+
+#### Run individual scripts example:
+`./run-dependencies-install.sh ; ./run-i3gaps-install.sh` or `bash run-dependencies-install.sh ; bash run-i3gaps-install.sh`
+
+The code is getting continually improved to fit cross-device depedencies and limitaions. 
